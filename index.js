@@ -10,7 +10,7 @@ async function init() {
     const client = new Discord.Client({fetchAllMembers: true});
 
     fs.readdir('./events/', (err, files) => {
-      if (err) return console.error(err);
+      if (err) return error.console(err);
 
       return files.forEach((file) => {
         const event = require(`./events/${file}`);
