@@ -4,5 +4,3 @@ node_modules/
 .eslintrc.js
 test.js
 package-lock.json
-test2.js
-test3.js

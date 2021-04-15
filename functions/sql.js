@@ -11,6 +11,7 @@ exports.connect = (uri) => {
 
   return new Promise(async (resolve, reject) => {
     try {
+      // eslint-disable-next-line no-unused-vars
       resolve(db = await sql.connect());
     } catch (err) {
       reject(err);

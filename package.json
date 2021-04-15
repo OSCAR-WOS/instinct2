@@ -3,5 +3,9 @@
     "discord.js": "^12.5.3",
     "dotenv": "^8.2.0",
     "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-google": "^0.14.0"
   }
 }
